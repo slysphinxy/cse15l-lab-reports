@@ -10,5 +10,4 @@ USE GOOGLE: [link](google.com)
 2.two
 3.one
 
-Horizontal line: 
----
+
