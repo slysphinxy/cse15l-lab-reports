@@ -2,7 +2,7 @@
 
 ## Install VScode
 
-![Image]()
+![Image](vscodeopen.png)
 
 1. Go to the vs code website.
 2. Find the download suited for your computer.
@@ -10,7 +10,7 @@
 
 ## Connect to the Server
 
-![Image]()
+![Image](access.png)
 
 1. If you are on Windows, install git if you don't have it, then set your terminal to use git bash.
 2. Open a terminal and use ssh cs15lsp23zz@ieng6.ucsd.edu with the 'zz' replaced with your usernames characters.
@@ -18,7 +18,7 @@
 
 ## Try Commands 
 
-![Image]()
+![Image](commands.png)
 
 1. In the terminal, after you have connected, run some commands. 
 2. Run the commands cd, ls, pwd, mkdir, and cp on different things.
