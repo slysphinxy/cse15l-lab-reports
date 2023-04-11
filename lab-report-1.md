@@ -1,4 +1,6 @@
-Install VScode
+# Tutorial for Remote Access
+
+## Install VScode
 
 ![Image]()
 
@@ -6,7 +8,7 @@ Install VScode
 2. Find the download suited for your computer.
 3. Download vs code and open it to make sure it works, after opening it you should see a screen similar to the picture above.
 
-Connect to the Server
+## Connect to the Server
 
 ![Image]()
 
@@ -14,7 +16,7 @@ Connect to the Server
 2. Open a terminal and use ssh cs15lsp23zz@ieng6.ucsd.edu with the 'zz' replaced with your usernames characters.
 3. If this is your first time connecting, type yes when the prompt comes up then enter your password, press enter after each one.
 
-Try Commands 
+## Try Commands 
 
 ![Image]()
 
