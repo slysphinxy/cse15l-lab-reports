@@ -25,7 +25,7 @@
  - `cd ~` - changes the directory to the home directory,  changed it to home directory
  - `cd ` - changes the directory, didn't change it again
  - `ls` - list all the folders/files in a path
- - `ls -lat` - list all the folders in a path, , listed a lot of files selected for with '-lat'
+ - `ls -lat` - list all the folders in a path, listed a lot of files selected for with '-lat'
  - `ls -a` - same as above but for files selected for with '-a'
  - `cat` - prints the contents of the file(s) given, there was no such file so nothing printed
  - `pwd ` - displays the working directory
