@@ -13,7 +13,7 @@
 ![Image](access.png)
 
 1. If you are on Windows, install git if you don't have it, then set your terminal to use git bash.
-2. Open a terminal and use `ssh cs15lsp23zz@ieng6.ucsd.edu` with the 'zz' replaced with your usernames characters.
+2. Open a terminal and use `ssh cs15lsp23zz@ieng6.ucsd.edu` with the `'zz'` replaced with your usernames characters.
 3. If this is your first time connecting, type yes when the prompt comes up then enter your password, press enter after each one.
 
 ## Try Commands 
