@@ -21,8 +21,8 @@
 ![Image](commands.png)
 
 1. In the terminal, after you have connected, run some commands. 
-2. Run the following commands:
- - `cd ~` - changes the directory to the home directory,  changed it to home directory
+2. Run the following commands, note that I have also included what the commands did for me:
+ - `cd ~` - changes the directory to the home directory, changed it to home directory
  - `cd ` - changes the directory, didn't change it again
  - `ls` - list all the folders/files in a path
  - `ls -lat` - list all the folders in a path, listed a lot of files selected for with '-lat'
