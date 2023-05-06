@@ -32,6 +32,7 @@ The Symptom as the output of the test:
 
 
 The bug before and after:
+
 before:
 ```
 static void reverseInPlace(int[] arr) {
