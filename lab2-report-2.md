@@ -28,7 +28,7 @@ An input that does not induce failiure and its corresponding JUnit test:
 ```
 
 The Symptom as the output of the test:
-[img.exe]
+[lab3img.png]
 
 
 The bug before and after:
