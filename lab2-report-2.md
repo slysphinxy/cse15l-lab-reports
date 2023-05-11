@@ -47,6 +47,8 @@ An input that does not induce failiure and its corresponding JUnit test:
 The Symptom as the output of the test:
 ![image of symptom](lab3Img.png)
 
+Explanation of the Symptom:
+
 
 The bug before and after:
 
