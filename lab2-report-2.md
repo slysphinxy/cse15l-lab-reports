@@ -8,13 +8,13 @@ StringServer.java File:
 
 Below are images of running the StringServer locally:
 
-![image of test1](test1.png)
+![image of test1](test2.png)
 Above is an instance of the StringServer running for the first time. 
 - medthods called: The method called in the StringServer.java file for this iteration is ```public String handleRequest(URI url)```.
 - relevant arguments and fields for those methods: The ```handleRequest``` method takes the url as an argument. A relevant field is the ```String str``` field which before running stores the String ```""```. 
 - relevant fields: The ```String str``` field changes its value from an empty string ```""``` to ```"hello"``` after running.
 
-![image of test2](test2.png)
+![image of test2](test1.png)
 Above is an instance of the StringServer running for the second time.
 - medthods called: The method called in the StringServer.java file for this iteration is ```public String handleRequest(URI url)```.
 - relevant arguments for those methods: The ```handleRequest``` method takes the url as an argument. A relevant field is the ```String str``` field which before running stores the String ```"hello"```.
