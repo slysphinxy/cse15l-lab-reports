@@ -1,6 +1,9 @@
 ## Part 1 - Web Server
-![image of symptom](lab3Img.png)
+
+![image of symptom](StringServerCode.png)
+
 ![image of symptom](test1.png)
+
 ![image of symptom](test2.png)
 
 ## Part 2 - Bugs in Method ReverseInPlace in ArrayExamples.java
@@ -56,5 +59,6 @@ static void reverseInPlace(int[] arr) {
  so that it is not just copied but actually switched.
  
  ## Part 3 - Reflection
+ 
  Something that I learned in lab 3 was how to use JUnit test. I didn't know the syntax that they used before and it was a bit different
  then what I had used in CSE 8B. I specifically learned about the @test syntax and how when checking doubles a delta value needs to be included.
