@@ -15,6 +15,7 @@ Above is an instance of the StringServer running for the first time.
 - relevant fields: The ```String str``` field changes its value from an empty string ```""``` to ```"hello"``` after running.
 
 ![image of test2](test1.png)
+
 Above is an instance of the StringServer running for the second time.
 - medthods called: The method called in the StringServer.java file for this iteration is ```public String handleRequest(URI url)```.
 - relevant arguments for those methods: The ```handleRequest``` method takes the url [localhost:2000/add-message?s=world]() as an argument. A relevant field is the ```String str``` field which before running stores the String ```"hello"```.
@@ -45,10 +46,12 @@ An input that does not induce failiure and its corresponding JUnit test:
 ```
 
 The Symptom as the output of the test:
+
 ![image of symptom](lab3Img.png)
 
 Explanation of the Symptom:
-
+As seen in the image above, this symptom is that the third (last) element in the array is not what is expected. The test shows that the value of the 
+```int[] input1``` array that the method was used on is 1 for the index ```[2]``` while the expected value at that index is 3. This symptom is caused because the method ```reverseInPlace``` did not swap the index ```[2]``` value with index ```[0]``` like it was supposed to.
 
 The bug before and after:
 
