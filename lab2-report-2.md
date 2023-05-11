@@ -1,7 +1,9 @@
 ## Part 1 - Web Server
 
 The code of my StringServer:
-StringServer File:
+
+StringServer.java File:
+
 ![image of StringServer Code](StringServerCode.png)
 
 Below are images of running the StringServer locally:
