@@ -1,10 +1,18 @@
 ## Part 1 - Web Server
 
-![image of symptom](StringServerCode.png)
+The code of my StringServer:
+![image of StringServer Code](StringServerCode.png)
 
-![image of symptom](test1.png)
+![image of test1](test1.png)
+Above is an instance of the StringServer running. 
+- medthods called: handleRequest and Main
+- relevant arguments for those methods: "hello"
+- relevant fields: the String str field changes it value from "" to "hello" 
 
-![image of symptom](test2.png)
+![image of test2](test2.png)
+- medthods called: handleRequest and Main
+- relevant arguments for those methods: "hello"
+- relevant fields: the String str field changes it value from "hello" to "hello\n world" 
 
 ## Part 2 - Bugs in Method ReverseInPlace in ArrayExamples.java
 
