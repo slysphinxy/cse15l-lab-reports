@@ -50,8 +50,8 @@ The Symptom as the output of the test:
 ![image of symptom](lab3Img.png)
 
 Explanation of the Symptom:
-As seen in the image above, this symptom is that the third (last) element in the array is not what is expected. The test shows that the value of the 
-```int[] input1``` array that the method was used on is 1 for the index ```[2]``` while the expected value at that index is 3. This symptom is caused because the method ```reverseInPlace``` did not swap the index ```[2]``` value with index ```[0]``` like it was supposed to.
+As seen in the image above, this symptom is that the third (last) element in the array is not what is expected. The test shows that the  
+```int[] input1``` array that the method was used on has a value of 1 for the index ```[2]``` while the expected value at that index is 3. This symptom is caused because the method ```reverseInPlace``` did not swap the index ```[2]``` value with index ```[0]``` value like it was supposed to.
 
 The bug before and after:
 
