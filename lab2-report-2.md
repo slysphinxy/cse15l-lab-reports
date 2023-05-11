@@ -9,6 +9,7 @@ StringServer.java File:
 Below are images of running the StringServer locally:
 
 ![image of test1](test2.png)
+
 Above is an instance of the StringServer running for the first time. 
 - medthods called: The method called in the StringServer.java file for this iteration is ```public String handleRequest(URI url)```.
 - relevant arguments and fields for those methods: The ```handleRequest``` method takes the url [localhost:2000/add-message?s=hello]() as an argument. A relevant field is the ```String str``` field which before running stores the String ```""```. 
