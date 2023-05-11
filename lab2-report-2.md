@@ -1,7 +1,7 @@
 ## Part 1 - Web Server
-
-
-
+![image of symptom](lab3Img.png)
+![image of symptom](test1.png)
+![image of symptom](test2.png)
 
 ## Part 2 - Bugs in Method ReverseInPlace in ArrayExamples.java
 
