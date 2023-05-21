@@ -1,14 +1,41 @@
 # All about ```grep```
 
-## Interesting Option 1: ```ls |grep <string>```
-Credit to: [wikibooks](https://en.wikibooks.org/wiki/Grep)
+## Interesting Option 1: ```grep -x "string"```
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 
-If wanting to look through files and only select files that contain a certain string, you can use ```ls |grep <string>```
-to create a list of the files in your working directory and then select for files based on a string that the file names need to contain. This
-command will then return all the files that contain that string.
+Outputs lines that match the entire line exactly in grep.
 
 ```
-ls |grep physical
+ls | grep physical
 ```
 Searching Technical Here
 
+## Interesting Option 2: ```grep -e "string"```
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
+
+Searches for matching patterns in a file.
+
+```
+ls | grep physical
+```
+Searching Technical Here
+
+## Interesting Option 3: ```grep -v "string"```
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
+
+Searches for everything that does not match the string input to the grp command.
+
+```
+ls | grep physical
+```
+Searching Technical Here
+
+## Interesting Option 4: ```grep -o "string"```
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
+
+Searches for and then outputs the matched parts of a matching line.
+
+```
+ls | grep physical
+```
+Searching Technical Here
