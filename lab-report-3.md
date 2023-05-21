@@ -6,7 +6,7 @@ Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Outputs lines that match the entire line exactly in grep.
 
 ```
-ls | grep physical
+grep -x 
 ```
 Searching Technical Here
 
