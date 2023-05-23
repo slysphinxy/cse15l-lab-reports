@@ -7,7 +7,7 @@ I pasted the ssh cs15lsp23al@ieng6.ucsd.edu command.
 I unfortunately had to use my password to log on because I wasn't able to 
 make my account not require it despite trying.
   
-[screenshot](logln.png)
+[screenshot](logIn.png)
 
 ## Step 5: Clone your fork of the repository from your Github account
 Keys Pressed: <Cmd-v>git<space>clone<Cmd-v>
