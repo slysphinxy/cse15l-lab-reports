@@ -10,11 +10,15 @@ grep -x
 ```
 Searching Technical Here
 
-matthewhoppe@Matthews-MacBook-Pro 911report % grep -x "Boarding the Flights" chapter-1.txt
-Boarding the Flights
+Input:
+```grep -x "INSIDE THE FOUR FLIGHTS" technical/911report/chapter-1.txt```
+Output:
+```INSIDE THE FOUR FLIGHTS```
 
-matthewhoppe@Matthews-MacBook-Pro About_LSC % grep -x "FOREWORD" Comments_on_semiannual.txt
-FOREWORD
+Input:
+```grep -x "LEGAL SERVICES CORPORATION" technical/government/About_LSC/commission_report.txt```
+Output:
+```LEGAL SERVICES CORPORATION```
 
 ## Interesting Option 2: ```grep -e <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
