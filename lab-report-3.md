@@ -2,7 +2,7 @@
 
 Note: All references to strings also indicate patterns if patterns not already indicated
 
-## Interesting Option 1: ```grep -x <string>```
+## Interesting Option 1: ```grep -x pattern file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
@@ -74,7 +74,7 @@ Climate change and biodiversity research, for example, urgently need the scienti
 Climate change and biodiversity research urgently need the scientific
 ```
 
-## Interesting Option 3: ```grep -i <string>```
+## Interesting Option 3: ```grep -i pattern file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
@@ -135,7 +135,7 @@ by either wild-type individuals or those with a single gene ‘knockout’ revea
 individuals in a population. This variation in neural activity may produce an effect on the
 ```
 
-## Interesting Option 4: ```grep -o <string>```
+## Interesting Option 4: ```grep -o pattern file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
