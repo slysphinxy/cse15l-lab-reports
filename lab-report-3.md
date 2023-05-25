@@ -70,6 +70,48 @@ Source: [chatGPT](https://openai.com/blog/chatgpt)
              Perform case insensitive matching.  By default, grep is case sensitive.
 
 Input:
+```
+grep -i "older" technical/biomed/1468-6708-3-1.txt
+```
+Output:
+```
+Older adults are frequently counseled to lose weight,
+non-smoking older adults have investigated the association
+in certain small subsets. A review of 13 studies of older
+Many healthy older adults report gradual weight gain
+number of studies of older persons is fairly small, and
+In older adults, risk factors may have a greater effect
+years of being healthy, in a cohort of older adults for
+modification interventions in older adults.
+65 and older at baseline [ 11 ] . Subjects were recruited
+older men and 30-35 for older women. In Figure 1, the
+categories could be combined for older adults. Since
+older women could be efficient if YHL (but not YOL) was
+interventions for older adults who were merely overweight
+evaluations should be considered critically when older
+33 34 ] . For older adults, the risks associated with
+outcome for a trial of weight loss in older adults
+found for underweight older adults. Clinical trials whose
+average older adult; however, adjustment for detailed
+older adults, especially for women. Future efforts to
+no excess risk for older adults who would be classified as
+obese or underweight older adults, and discouraging trials
+that address older adults who are merely overweight.
+```
+Input:
+```grep -i "individuals" technical/plos/journal.pbio.0020019.txt```
+Output:
+```
+Individuals within a wild population show remarkably little morphological variation,
+proposal that individuals were somehow buffered, or canalized, against genetic and
+new mutations (which may be deleterious), potentially allowing individuals to store this
+providing an additional substrate for natural selection. In this way, individuals could
+capable of hiding and then releasing genetic variation: (1) individuals heterozygous for
+abnormalities; (2) individuals treated with a pharmacological inhibitor of Hsp90 show
+essentially defines the genotype of the individuals within the population, and the amount
+by either wild-type individuals or those with a single gene ‘knockout’ revealed much higher
+individuals in a population. This variation in neural activity may produce an effect on the
+```
 
 
 ## Interesting Option 4: ```grep -o <string>```
