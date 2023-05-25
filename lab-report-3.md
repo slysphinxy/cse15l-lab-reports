@@ -113,14 +113,37 @@ by either wild-type individuals or those with a single gene ‘knockout’ revea
 individuals in a population. This variation in neural activity may produce an effect on the
 ```
 
-
 ## Interesting Option 4: ```grep -o <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [chatGPT](https://openai.com/blog/chatgpt)
 
 Searches for and then outputs the matched parts of a matching line.
 
+Input:
 ```
-ls | grep physical
+grep -o "Legal Center" technical/government/Media/5_Legal_Groups.txt
 ```
-Searching Technical Here
+Output:
+```
+Legal Center
+Legal Center
+Legal Center
+Legal Center
+Legal Center
+```
+Input:
+```
+grep -o "coronary disease" technical/biomed/1468-6708-3-3.txt
+```
+Output:
+```
+coronary disease
+coronary disease
+coronary disease
+coronary disease
+coronary disease
+coronary disease
+```
+
+
+
