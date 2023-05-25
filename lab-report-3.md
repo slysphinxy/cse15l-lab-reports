@@ -2,11 +2,9 @@
 
 ## Interesting Option 1: ```grep -x <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [chatGPT](https://openai.com/blog/chatgpt)
+Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
-The grep -x command is used to search for an exact match of the entire line in a given input. It matches lines that completely match the specified pattern or regular expression.
-
-Outputs lines in a file that exactly match the entire line input in grep.
+The grep -x command is used to search for an exact match of the entire line in a given input. If a line in the file matches completely, then that line is output.
 
 ```
 grep -x 
@@ -23,20 +21,11 @@ Input:
 Output:
 ```LEGAL SERVICES CORPORATION```
 
-## Interesting Option 2: ```grep -e <string>```
+## Interesting Option 2: ```grep -e pattern file(s) or grep -e pattern1 -e pattern2 file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [chatGPT](https://openai.com/blog/chatgpt)
+Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
-The grep -e command is used to search for a pattern or regular expression in a given input. The -e option allows you to specify the pattern or regular expression directly on the command line.
-
-The pattern is the text or regular expression you want to search for, and file(s) represents the file(s) in which you want to search for the pattern.
-The -e option is particularly useful when the pattern contains special characters or starts with a hyphen (-), which could be mistakenly interpreted as an option by grep. By using -e, you explicitly indicate that what follows is the pattern rather than an option.
-
- -e pattern, --regexp=pattern
-             Specify a pattern used during the search of the input: an input line is selected if it matches any of the specified patterns.  This option is
-             most useful when multiple -e options are used to specify multiple patterns, or when a pattern begins with a dash (‘-’).
-
-Searches for matching patterns in a file.
+The grep -e command is used to search for a pattern or regular expression in a given input. The -e option allows you to specify the pattern or regular expression directly on the command line. It is especially useful if the pattern has special characters, or starts with a hyphen (-) because this could be interpreted as an option by grep otherwise. You can also use -e to search for multiple patterns by chaining it together.
 
 Input:
 ```
@@ -64,10 +53,9 @@ Climate change and biodiversity research urgently need the scientific
 
 ## Interesting Option 3: ```grep -i <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [chatGPT](https://openai.com/blog/chatgpt)
+Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
--i, --ignore-case
-             Perform case insensitive matching.  By default, grep is case sensitive.
+Searches for matches to the string input regardless of case. If there is a match on a line, outputs that entire line.
 
 Input:
 ```
@@ -115,9 +103,9 @@ individuals in a population. This variation in neural activity may produce an ef
 
 ## Interesting Option 4: ```grep -o <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [chatGPT](https://openai.com/blog/chatgpt)
+Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
-Searches for and then outputs the matched parts of a matching line.
+Searches for and then outputs the matched parts of a matching line. For every line, if the string input matches the string in a line, then that string will be output.
 
 Input:
 ```
