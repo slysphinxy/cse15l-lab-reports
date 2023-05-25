@@ -22,6 +22,8 @@ Output:
 INSIDE THE FOUR FLIGHTS
 ```
 
+![img](1.png)
+
 Example 2:
 The command below searches the ```commission_report.txt``` file for lines that exactly match the string "LEGAL SERVICES CORPORATION". All exact matches are then output as seen below. This command is useful as shown below if you want to see if a file contains an exact copy of a string, if you for example already know what should be in a file and want to make sure that it is actually there, you could use this command to check.
 
@@ -34,6 +36,8 @@ Output:
 ```
 LEGAL SERVICES CORPORATION
 ```
+
+![img](2.png)
 
 ## Interesting Option 2: ```grep -e pattern file(s)``` or ```grep -e pattern1 -e pattern2 file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
@@ -60,6 +64,8 @@ about 93 women per treatment arm, if 7-year YHL were the
 These results are for a 7-year follow-up. The relative
 ```
 
+![img](3.png)
+
 Example 2:
 The command below searches the file ```journal.pbio.0020001.txt``` for the strings "climate" and "biodiversity". All lines in the file that contain both "climate" and "biodiversity" are then output as seen below. This command is useful as shown below because it can search for multiple keywords or string in a file so that you can see when two things are mentioned together which may be important if you want to see the realtionship between two things.
 
@@ -73,6 +79,8 @@ Output:
 Climate change and biodiversity research, for example, urgently need the scientific input
 Climate change and biodiversity research urgently need the scientific
 ```
+
+![img](4.png)
 
 ## Interesting Option 3: ```grep -i pattern file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
@@ -114,6 +122,8 @@ obese or underweight older adults, and discouraging trials
 that address older adults who are merely overweight.
 ```
 
+![img](5.png)
+
 Example 2:
 The command below searches the file ```journal.pbio.0020019.txt``` for matches of the string "individuals" regardless of case. The lines with matches to the string are then output as seen below. This command is useful if you want to know if a specific word or string is in a file regardless of its case which is shown below.
 
@@ -134,6 +144,8 @@ essentially defines the genotype of the individuals within the population, and t
 by either wild-type individuals or those with a single gene ‘knockout’ revealed much higher
 individuals in a population. This variation in neural activity may produce an effect on the
 ```
+
+![img](6.png)
 
 ## Interesting Option 4: ```grep -o pattern file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
@@ -157,6 +169,8 @@ Legal Center
 Legal Center
 ```
 
+![img](7.png)
+
 Example 2:
 The command below searches the file ```1468-6708-3-3.txt``` for matches to the string "coronary disease". The matches to this string are then output as seen below. This shows how the command is useful for quickly seeing what a file is about, by searching text with this command, one can see if it is mentioned a lot or not which could indicate what the document is about.
 
@@ -174,5 +188,6 @@ coronary disease
 coronary disease
 ```
 
+![img](8.png)
 
 
