@@ -3,8 +3,10 @@
 Note: All references to strings also indicate patterns if patterns not already indicated
 
 ## Interesting Option 1: ```grep -x pattern file(s)```
-Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [ChatGPT](https://openai.com/blog/chatgpt)
+
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep) https://en.wikibooks.org/wiki/Grep
+
+Source: [ChatGPT](https://openai.com/blog/chatgpt) https://openai.com/blog/chatgpt
 
 The grep -x command is used to search for an exact match of a given input string/pattern. If a line in the file matches completely, then that line is output.
 
@@ -40,8 +42,10 @@ LEGAL SERVICES CORPORATION
 ![img](2.png)
 
 ## Interesting Option 2: ```grep -e pattern file(s)``` or ```grep -e pattern1 -e pattern2 file(s)```
-Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [ChatGPT](https://openai.com/blog/chatgpt)
+
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep) https://en.wikibooks.org/wiki/Grep
+
+Source: [ChatGPT](https://openai.com/blog/chatgpt) https://openai.com/blog/chatgpt
 
 The grep -e command is used to search for a pattern or regular expression in a given input. The -e option allows you to specify the pattern or regular expression directly on the command line. It is especially useful if the pattern has special characters, or starts with a hyphen (-) because this could be interpreted as an option by grep otherwise. You can also use -e to search for multiple patterns by chaining it together.
 
@@ -83,8 +87,10 @@ Climate change and biodiversity research urgently need the scientific
 ![img](4.png)
 
 ## Interesting Option 3: ```grep -i pattern file(s)```
-Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [ChatGPT](https://openai.com/blog/chatgpt)
+
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep) https://en.wikibooks.org/wiki/Grep
+
+Source: [ChatGPT](https://openai.com/blog/chatgpt) https://openai.com/blog/chatgpt
 
 Searches for matches to the string input regardless of case. If there is a match on a line, outputs that entire line.
 
@@ -148,8 +154,10 @@ individuals in a population. This variation in neural activity may produce an ef
 ![img](6.png)
 
 ## Interesting Option 4: ```grep -o pattern file(s)```
-Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
-Source: [ChatGPT](https://openai.com/blog/chatgpt)
+
+Source: [wikibooks](https://en.wikibooks.org/wiki/Grep) https://en.wikibooks.org/wiki/Grep
+
+Source: [ChatGPT](https://openai.com/blog/chatgpt) https://openai.com/blog/chatgpt
 
 Searches for and then outputs the matched parts of a matching line. For every line, if the string input matches the string in a line, then that string will be output.
 
