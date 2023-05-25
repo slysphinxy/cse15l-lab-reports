@@ -6,38 +6,47 @@ Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 The grep -x command is used to search for an exact match of the entire line in a given input. If a line in the file matches completely, then that line is output.
 
-Examples:
+Example 1:
+The command below searches the ```chapter-1.txt``` file for lines that exactly match the string "INSIDE THE FOUR FLIGHTS". All exact matches
+are the output as seen below.
 
 Input:
 ```
-grep -x "INSIDE THE FOUR FLIGHTS" technical/911report/chapter-1.txt
+grep -x "INSIDE THE FOUR FLIGHTS" ./technical/911report/chapter-1.txt
 ```
+
 Output:
 ```
 INSIDE THE FOUR FLIGHTS
 ```
 
+Example 2:
+The command below searches the ```commission_report.txt``` file for lines that exactly match the string "LEGAL SERVICES CORPORATION". All exact matches are then output as seen below.
+
 Input:
 ```
-grep -x "LEGAL SERVICES CORPORATION" technical/government/About_LSC/commission_report.txt
+grep -x "LEGAL SERVICES CORPORATION" ./technical/government/About_LSC/commission_report.txt
 ```
+
 Output:
 ```
 LEGAL SERVICES CORPORATION
 ```
 
-## Interesting Option 2: ```grep -e pattern file(s) or grep -e pattern1 -e pattern2 file(s)```
+## Interesting Option 2: ```grep -e pattern file(s)``` or ```grep -e pattern1 -e pattern2 file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 The grep -e command is used to search for a pattern or regular expression in a given input. The -e option allows you to specify the pattern or regular expression directly on the command line. It is especially useful if the pattern has special characters, or starts with a hyphen (-) because this could be interpreted as an option by grep otherwise. You can also use -e to search for multiple patterns by chaining it together.
 
-Examples:
+Example 1:
+The command below searches the file ```1468-6708-3-1.txt``` for the string "year", then all lines in that file that contain the string "year" are output. This can be seen in the output below.
 
 Input:
 ```
-grep -e -year technical/biomed/1468-6708-3-1.txt
+grep -e -year ./technical/biomed/1468-6708-3-1.txt
 ```
+
 Output:
 ```
 to quality-adjusted life-years, healthy year equivalents,
@@ -48,10 +57,15 @@ they were available, and observed 3-year YOL and YHL plus
 about 93 women per treatment arm, if 7-year YHL were the
 These results are for a 7-year follow-up. The relative
 ```
+
+Example 2:
+The command below searches the file ```journal.pbio.0020001.txt``` for the strings "climate" and "biodiversity". All lines in the file that contain both "climate" and "biodiversity" are then output as seen below.
+
 Input:
 ```
-grep -e climate -e biodiversity technical/plos/journal.pbio.0020001.txt
+grep -e climate -e biodiversity ./technical/plos/journal.pbio.0020001.txt
 ```
+
 Output:
 ```
 Climate change and biodiversity research, for example, urgently need the scientific input
@@ -64,12 +78,14 @@ Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 Searches for matches to the string input regardless of case. If there is a match on a line, outputs that entire line.
 
-Examples:
+Example 1:
+The command below searches the file ```1468-6708-3-1.txt``` for the string "older". The command does not care about case so if there are any matches to this string with the same uppercase or lowercase letters, the command then outputs those lines as seen below.
 
 Input:
 ```
-grep -i "older" technical/biomed/1468-6708-3-1.txt
+grep -i "older" ./technical/biomed/1468-6708-3-1.txt
 ```
+
 Output:
 ```
 Older adults are frequently counseled to lose weight,
@@ -95,8 +111,15 @@ no excess risk for older adults who would be classified as
 obese or underweight older adults, and discouraging trials
 that address older adults who are merely overweight.
 ```
+
+Example 2:
+The command below searches the file ```journal.pbio.0020019.txt``` for matches of the string "individuals" regardless of case. The lines with matches to the string are then output as seen below.
+
 Input:
-```grep -i "individuals" technical/plos/journal.pbio.0020019.txt```
+```
+grep -i "individuals" ./technical/plos/journal.pbio.0020019.txt
+```
+
 Output:
 ```
 Individuals within a wild population show remarkably little morphological variation,
@@ -116,11 +139,12 @@ Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 Searches for and then outputs the matched parts of a matching line. For every line, if the string input matches the string in a line, then that string will be output.
 
-Examples:
+Example 1:
+The command below searches the file ```5_Legal_Groups.txt``` for matches to the string "Legal Center". The matches to this string are then output as seen below.
 
 Input:
 ```
-grep -o "Legal Center" technical/government/Media/5_Legal_Groups.txt
+grep -o "Legal Center" ./technical/government/Media/5_Legal_Groups.txt
 ```
 Output:
 ```
@@ -130,9 +154,13 @@ Legal Center
 Legal Center
 Legal Center
 ```
+
+Example 2:
+The command below searches the file ```1468-6708-3-3.txt``` for matches to the string "coronary disease". The matches to this string are then output as seen below.
+
 Input:
 ```
-grep -o "coronary disease" technical/biomed/1468-6708-3-3.txt
+grep -o "coronary disease" ./technical/biomed/1468-6708-3-3.txt
 ```
 Output:
 ```
