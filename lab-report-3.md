@@ -62,12 +62,14 @@ Climate change and biodiversity research, for example, urgently need the scienti
 Climate change and biodiversity research urgently need the scientific
 ```
 
-## Interesting Option 3: ```grep -v <string>```
+## Interesting Option 3: ```grep -i <string>```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [chatGPT](https://openai.com/blog/chatgpt)
 
-Searches for everything that does not match the string input to the grp command.
+-i, --ignore-case
+             Perform case insensitive matching.  By default, grep is case sensitive.
 
+Input:
 
 
 ## Interesting Option 4: ```grep -o <string>```
