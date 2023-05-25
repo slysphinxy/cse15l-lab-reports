@@ -6,26 +6,33 @@ Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 The grep -x command is used to search for an exact match of the entire line in a given input. If a line in the file matches completely, then that line is output.
 
-```
-grep -x 
-```
-Searching Technical Here
+Examples:
 
 Input:
-```grep -x "INSIDE THE FOUR FLIGHTS" technical/911report/chapter-1.txt```
+```
+grep -x "INSIDE THE FOUR FLIGHTS" technical/911report/chapter-1.txt
+```
 Output:
-```INSIDE THE FOUR FLIGHTS```
+```
+INSIDE THE FOUR FLIGHTS
+```
 
 Input:
-```grep -x "LEGAL SERVICES CORPORATION" technical/government/About_LSC/commission_report.txt```
+```
+grep -x "LEGAL SERVICES CORPORATION" technical/government/About_LSC/commission_report.txt
+```
 Output:
-```LEGAL SERVICES CORPORATION```
+```
+LEGAL SERVICES CORPORATION
+```
 
 ## Interesting Option 2: ```grep -e pattern file(s) or grep -e pattern1 -e pattern2 file(s)```
 Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 The grep -e command is used to search for a pattern or regular expression in a given input. The -e option allows you to specify the pattern or regular expression directly on the command line. It is especially useful if the pattern has special characters, or starts with a hyphen (-) because this could be interpreted as an option by grep otherwise. You can also use -e to search for multiple patterns by chaining it together.
+
+Examples:
 
 Input:
 ```
@@ -56,6 +63,8 @@ Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 Searches for matches to the string input regardless of case. If there is a match on a line, outputs that entire line.
+
+Examples:
 
 Input:
 ```
@@ -106,6 +115,8 @@ Source: [wikibooks](https://en.wikibooks.org/wiki/Grep)
 Source: [ChatGPT](https://openai.com/blog/chatgpt)
 
 Searches for and then outputs the matched parts of a matching line. For every line, if the string input matches the string in a line, then that string will be output.
+
+Examples:
 
 Input:
 ```
