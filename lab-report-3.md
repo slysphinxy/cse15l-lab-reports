@@ -22,7 +22,6 @@ Output:
 INSIDE THE FOUR FLIGHTS
 ```
 
-Screenshot:
 ![img](1.png)
 
 Example 2:
@@ -38,7 +37,6 @@ Output:
 LEGAL SERVICES CORPORATION
 ```
 
-Screenshot:
 ![img](2.png)
 
 ## Interesting Option 2: ```grep -e pattern file(s)``` or ```grep -e pattern1 -e pattern2 file(s)```
@@ -66,7 +64,6 @@ about 93 women per treatment arm, if 7-year YHL were the
 These results are for a 7-year follow-up. The relative
 ```
 
-Screenshot:
 ![img](3.png)
 
 Example 2:
@@ -83,7 +80,6 @@ Climate change and biodiversity research, for example, urgently need the scienti
 Climate change and biodiversity research urgently need the scientific
 ```
 
-Screenshot:
 ![img](4.png)
 
 ## Interesting Option 3: ```grep -i pattern file(s)```
@@ -126,7 +122,6 @@ obese or underweight older adults, and discouraging trials
 that address older adults who are merely overweight.
 ```
 
-Screenshot:
 ![img](5.png)
 
 Example 2:
@@ -150,7 +145,6 @@ by either wild-type individuals or those with a single gene ‘knockout’ revea
 individuals in a population. This variation in neural activity may produce an effect on the
 ```
 
-Screenshot:
 ![img](6.png)
 
 ## Interesting Option 4: ```grep -o pattern file(s)```
@@ -175,7 +169,6 @@ Legal Center
 Legal Center
 ```
 
-Screenshot:
 ![img](7.png)
 
 Example 2:
@@ -195,7 +188,6 @@ coronary disease
 coronary disease
 ```
 
-Screenshot:
 ![img](8.png)
 
 
