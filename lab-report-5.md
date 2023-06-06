@@ -8,7 +8,7 @@
 
 ![](response.png)
 
-3. What information the Student Got from Response and What the Bug Is
+2. What information the Student Got from Response and What the Bug Is
 
 ![](TheBuggyCode.png)
 
