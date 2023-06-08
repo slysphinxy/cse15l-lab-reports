@@ -35,7 +35,7 @@ Then I pressed ```<n>``` 1 time (since I was already near the bottom of the file
 
 Then I pressed ```<esc>``` and ```<:>``` (```<shift>``` + ```<;>```) and ```w``` and ```q``` then ```<enter>``` to save and exit my changes
 
-![screenshot](7.png)
+![screenshot](7.1.png)
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 
