@@ -1,30 +1,50 @@
 # Lab Report 4
 
 ## Step 4: Log into ieng6
-Keys Pressed: <Cmd-v><enter><my password><enter>
 
-I pasted the ssh cs15lsp23al@ieng6.ucsd.edu command. 
-I unfortunately had to use my password to log on because I wasn't able to 
-make my account not require it despite trying.
+I pressed ```<Command-C>``` and ```<Command-V>``` to copy the ```ssh cs15lsp23al@ieng6.ucsd.edu``` command, then to paste it into my terminal, then i pressed ```<enter>```
   
 [screenshot](logIn.png)
 
 ## Step 5: Clone your fork of the repository from your Github account
-Keys Pressed: <Cmd-v>git<space>clone<Cmd-v>
 
-First I pasted ssh -T git@github.com. Then I typed git clone then used paste for git@github.com:slysphinxy/lab7.git
+I pressed ```<Command-C>``` and ```<Command-V>``` to copy the ```ssh -T git@github.com``` command and paste it into my terminal, then I pressed ```<enter>```
+  
+Then I typed, ```git clone``` then pressed ```<Command-C>``` to copy the ssh link ```git@github.com:slysphinxy/lab7.git```, then ```<Command-V>``` to paste it into the terminal, then I pressed ```<enter>```
+  
+The terminal prompted me that the lab already existed (from a previous attempt) so I typed 
+the command ```rm -rf lab7``` and that deleted it 
+
+Then I typed, ```git clone``` then pressed ```<Command-C>``` to copy the ssh link ```git@github.com:slysphinxy/lab7.git```, then ```<Command-V>``` to paste it into the terminal, then I pressed ```<enter>```
+
 
 ## Step 6: Run the tests, demonstrating that they fail
-Keys Pressed:
+
+I typed ```ls``` then ```<enter>``` to see the files, then I typed ```cd lab7``` , ```<enter>``` to change my directory, then I typed ```bash test.sh``` and ```<enter>```
+
 
 
 ## Step 7: Edit the code file to fix the failing test
-Keys Pressed:
+Note: normal keys are bracketed because they are being used as VIM commands
+
+Then I typed ```vim ListExamples.java``` ```<enter>``` to access the vim editor with this file
+
+Then I typed ```</>``` and ```index1``` to find the first instance of “index1” in the file, then I typed ```<enter>```
+Then I pressed ```<n>``` 1 time (since I was already near the bottom of the file) to get to the “index1” in the last loop and then I pressed ```<l>``` 5 times then I pressed ```<x>``` to delete the number 1 and  then pressed ```<i>``` and then 2 to change “index1” to “index2”
+
+Then I pressed ```<esc>``` and ```<:>``` (```<shift>``` + ```<;>```) and ```w``` and ```q``` then ```<enter>``` to save and exit my changes
+
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
-Keys Pressed:
+
+I pressed the ```<up>``` then ```<enter>``` to rerun the bash test.sh command from my terminal history and run the test
+
 
 
 ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
-Keys Pressed:
+
+Then I typed ```git add ./ListExamples.java``` ```<enter>```, then ```git commit``` ```<->m``` and ```<”>``` with the message “```done```” then ```<”>``` to close it.
+
+Finally I typed ```git push``` 
+
