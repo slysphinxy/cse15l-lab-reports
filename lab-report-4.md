@@ -46,5 +46,5 @@ I pressed the ```<up>``` then ```<enter>``` to rerun the bash test.sh command fr
 
 Then I typed ```git add ./ListExamples.java``` ```<enter>```, then ```git commit``` ```<->m``` and ```<”>``` with the message “```done```” then ```<”>``` to close it.
 
-Finally I typed ```git push``` 
+Finally I typed ```git push``` and ```<enter>```
 
