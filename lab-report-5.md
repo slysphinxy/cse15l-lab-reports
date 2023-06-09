@@ -1,17 +1,17 @@
 ## Part 1 - Debugging Scenario
 
 ### 1. Screenshot of the Symptom
-![](question.png)
+![](question1.png)
 
 ### 2. Screenshot of the Response
 
-![](TA.png)
+![](TA1.png)
 
 ### 3. What information the Student Got from Response and What the Bug Is
 
-![](TheBuggyCode.png)
+![](TheBuggyCode1.png)
 
-![](fixedCode.png)
+![](fixedCode1.png)
 
 The student was able to figure out based on the TA's response that the method for finding a triangle's area was buggy.
 Looking into this method which is shown in the first screenshot, the student found that a part of the calculation for the area of a triangle used the fraction 1/2, this fraction rounded down to zero, therefore making it so the total area was zero because this fraction was multiplied by the base and height of the triangle. The second screenshot shows the result in the terminal after the code is fixed by changing the 1/2 to a .5, since .5 doesn't round down to zero, the multiplication gives the correct answer.
@@ -55,7 +55,7 @@ class Areas{
     static double circleArea(double radius) throws Exception{
         double ans = 3.14*(radius)*(radius);
         if(ans <= 0){
-            throw new Exception("negative inputs or an input of 0");
+            throw new Exception("negative area or an area of 0");
         }
         return ans;
     }
@@ -63,7 +63,7 @@ class Areas{
     static double rectangleArea(double length, double width) throws Exception{
         double ans = length*width;
         if(ans <= 0){
-            throw new Exception("negative inputs or an input of 0");
+            throw new Exception("negative area or an area of 0");
         }
         return ans;
     }
@@ -71,7 +71,7 @@ class Areas{
     static double triangleArea(double base, double height) throws Exception{
         double ans = (1/2)*base*height;
         if(ans <= 0){
-            throw new Exception("negative inputs or an input of 0");
+            throw new Exception("negative area or an area of 0");
         }
         return ans;
     }
