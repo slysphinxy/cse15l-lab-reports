@@ -18,8 +18,10 @@ Looking into this method which is shown in the first screenshot, the student fou
 
 ### 4. All the information
 
-##### The directory structure (working directory): /Users/matthewhoppe(me)/Desktop/Lab Report 5, the files in this directory should be 
-Areas.java and inputAreas.sh.
+##### The directory structure (working directory): 
+
+```/Users/matthewhoppe(me)/Desktop/Lab Report 5```, the files in this directory should be 
+```Areas.java``` and ```inputAreas.sh```.
 
 ##### Contents of inputAreas.sh file:
 
