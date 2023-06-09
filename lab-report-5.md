@@ -33,7 +33,7 @@ java Areas rectangle: 2.5 7.9
 java Areas triangle: 3.4 8.2
 ```
 
-##### Contents of Areas.java file:
+##### Contents of Areas.java file (before fixing bug):
 
 ```
 class Areas{
