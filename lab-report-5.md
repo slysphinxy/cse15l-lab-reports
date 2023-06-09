@@ -77,7 +77,7 @@ class Areas{
 }  
 ```
 
-##### What to commands to run for the bug:
+##### What commands to run for the bug:
 
 ```bash inputAreas.sh```
 
