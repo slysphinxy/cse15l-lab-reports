@@ -1,7 +1,6 @@
 ## Part 1 - Debugging Scenario
 
 ### 1. Screenshot of the Symptom
-
 ![](question.png)
 
 ### 2. Screenshot of the Response
