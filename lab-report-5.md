@@ -89,4 +89,4 @@ Simply just change the ```(1/2)``` in the triangleArea method to a ```.5```, thi
 
 Something that I learned from my lab experience that I didn't know before was how to use VIM commands to quickly move around files. 
 This is cool to me because I usually spend a lot of time clicking around and I am definantly faster with a keyboard, so using VIM
-commands such as "k" and "j" to move up and down lines in a file has saved me a lot of time.
+commands such as ```k``` and ```j``` to move up and down lines in a file has saved me a lot of time.
