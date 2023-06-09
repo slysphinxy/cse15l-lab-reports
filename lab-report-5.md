@@ -6,7 +6,7 @@
 
 ### 2. Screenshot of the Response
 
-![](response.png)
+![](TA.png)
 
 ### 3. What information the Student Got from Response and What the Bug Is
 
